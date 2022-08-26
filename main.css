@@ -208,6 +208,147 @@ body {
     font-size: 5vh;
   }
 
+  .uwu-a {
+    text-align: left;
+    font-size: 1.7vh;
+    margin-left: 1vh;
+  }
+  .uwu-z {
+    text-align: left;
+    font-size: 1.7vh;
+    margin-left: 1vh;
+    color: blue;
+  }
+  .uwu-z2 {
+    text-align: left;
+    font-size: 1.7vh;
+    margin-left: 1vh;
+    margin-top: 150%;
+    color: red;
+  }
+  .uwu-z3 {
+    text-align: left;
+    font-size: 1.7vh;
+    margin-left: 1vh;
+    margin-top: 150%;
+    color: yellow;
+  }
+  .uwu-z4 {
+    text-align: left;
+    font-size: 1.7vh;
+    margin-left: 1vh;
+    margin-top: 150%;
+    color: green
+  }
+  .uwu-z, .uwu-z2, .uwu-z3, .uwu-z4 {
+    font-size:xx-large;
+  }
+
+.ti-chego {
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  line-height: 10vh;
+  margin-top: 6vh;
+}
+.uwu2 {
+  width: 40vw;
+  float: right;
+  position: absolute;
+  margin-left: 55vw;
+  z-index: 1;
+}
+
+.uwu1 {
+  width: 40vw;
+  float: left;
+  margin-left: 20px;
+  position: absolute;
+  z-index: 1;
+}
+.uwu3 {
+  width: 40vw;
+  float: left;
+  margin-left: 20px;
+  position: absolute;
+  margin-top: 26vw;
+  z-index: 0;
+}
+.uwu4 {
+  width: 40vw;
+  float: right;
+  position:absolute;
+  margin-left: 55vw;
+  margin-top: 50vw;
+  z-index: 0;
+}
+.uwu5 {
+  width: 40vw;
+  float: left;
+  margin-left: 5vw;
+  margin-top: 68vw;
+}
+.uwu-past {
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 10px;
+  padding-bottom: 100px;
+  margin-top: 100vw;
+  text-align: center;
+  font-size: 3vw;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  word-spacing: 1vh;
+}
+.neko-im {
+  width: 20ch;
+  margin-top: 3vh;
+}
+.ya-kringe {
+  font-size: 0.5cm;
+  margin-top: 3vw;
+}
+
+.ya-kringe2 {
+  font-size:0.4.5cm;
+  margin-top: 2vw;
+}
+
+.voina {
+  margin-top: 30vh;
+  padding-top: 3vh;
+  background-color: #141313;
+  color: white;
+  padding-bottom: 20px;
+}
+.voina-im {
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  line-height: 10vh;
+  width: 75vw;
+  min-width: 25vw;
+  max-width: 60vw;
+  height: 35vw;
+}
+.vint {
+  text-align: right;
+  margin-top: 20px;
+  font-size: 5vw;
+  padding-right: 25px;
+}
+.ochn {
+  text-align: left;
+  font-size: 5vw;
+}
+.war-exit {
+  font-size: 4vw;
+  text-align: center;
+  margin-top: 3vh;
+}
+.war-exit a:visited {
+  color: aqua;
+}
+
   @media screen and (max-width: 720px) {
     .gif1 {
       max-width: 75vw;
@@ -238,7 +379,10 @@ body {
       margin-top: 9vh;
       width: 85%;
     }
+    .uwu-main {
+      font-size: 25px;
   }
+}
 
   @media screen and (min-width: 721px) {
     .gif1 {
@@ -270,4 +414,11 @@ body {
     #Главная {
       font-size: 5vh;
     }
+    .uwu-main {
+      font-size: 2px;
+      font-size: 56px;
+      margin-bottom: 3vh;
+    }
+    
+    
 }
