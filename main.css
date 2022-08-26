@@ -196,6 +196,18 @@ body {
     text-align: center;
   }
 
+  .oshibka {
+    margin-left: 3vh;
+    margin-right: 3vh;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+    line-height: 8vh;
+  }
+
+  .sadness {
+    font-size: 5vh;
+  }
+
   @media screen and (max-width: 750px) {
     .gif1 {
         max-width: 65vw;
