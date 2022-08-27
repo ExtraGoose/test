@@ -348,6 +348,9 @@ body {
 .war-exit a:visited {
   color: aqua;
 }
+.war-exit a {
+  color: #00e0e1;
+}
 
   @media screen and (max-width: 720px) {
     .gif1 {
