@@ -45,6 +45,28 @@
 
   .show {display:block;}
 
+  /* Таблицы */
+  table {
+    border: 1px solid rgb(46, 46, 46);
+    background-color: #617969;
+    min-width: 50vw;
+    height: 40vh;
+    margin: auto;
+    text-align: center;
+ }
+ /* границы ячеек первого ряда таблицы */
+ th {
+    border: 1px solid rgb(46, 46, 46);
+    font-size: 2.2vh;
+ }
+ /* границы ячеек тела таблицы */
+ td {
+    border: 1px solid rgb(46, 46, 46);
+ }
+ .table1 {
+  margin-top: 2vw;
+ }
+
   /*Общее*/
 * {
     margin: 0%;
@@ -196,6 +218,13 @@ body {
     text-align: center;
   }
 
+  .mot-text a {
+    color: royalblue;
+  }
+  .mot-text a:visited {
+    color: royalblue;
+  }
+
   .oshibka {
     margin-left: 3vh;
     margin-right: 3vh;
@@ -295,7 +324,7 @@ body {
   padding-bottom: 100px;
   margin-top: 100vw;
   text-align: center;
-  font-size: 3vw;
+  font-size: 2.5vh;
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   word-spacing: 1vh;
 }
@@ -309,8 +338,12 @@ body {
 }
 
 .ya-kringe2 {
-  font-size:0.4.5cm;
+  font-size:0.45cm; 
   margin-top: 2vw;
+}
+
+.ya-kringemr {
+  font-size:1cm;
 }
 
 .voina {
@@ -325,10 +358,10 @@ body {
   display: block;
   margin: 0 auto;
   line-height: 10vh;
-  width: 75vw;
+  width: 55vh;
   min-width: 25vw;
   max-width: 60vw;
-  height: 35vw;
+  height: 45vw;
 }
 .vint {
   text-align: right;
@@ -348,11 +381,48 @@ body {
 .war-exit a:visited {
   color: aqua;
 }
-.war-exit a {
-  color: #00e0e1;
+
+.extra1 {
+  border-radius: 1vh;
+  border: 2px solid #37423d;
+  border-right: 9px solid #37423d;
+  border-bottom: 9px solid #37423d;
+  border-top: 9px solid #536b60;
+  border-left: 9px solid #536b60;
+  background-color: #708577;
+  padding-left: 9px;
+  padding-top: 8px;
+  padding-right: 7px;
+  padding-bottom: 5px;
+}
+.extra1z {
+  text-align: center;
+  display: block;
+  font-size: x-large;
+  padding-top: 12px;
+}
+.extra1x {
+  text-align: center;
+  display: block;
+  font-size: x-large;
+  padding-top: 12px;
+}
+.obnova-txt {
+  margin-top: 5vh;
+  margin-left: 5vh;
+  margin-right: 5vh;
 }
 
   @media screen and (max-width: 720px) {
+    #Главная {
+      margin-left: 0.3vh;
+      padding-top: 3%;
+      text-align: center;
+      font-size: 3.4vh;
+      font-weight: 600;
+      font-family:Verdana, Geneva, Tahoma, sans-serif;
+      width: 80%;
+    }
     .gif1 {
       max-width: 75vw;
       max-height: 75vh;
@@ -375,6 +445,13 @@ body {
       padding-right: 7px;
       padding-bottom: 5px;
     }
+    .extra1 {
+      margin-left: 4vw;
+      margin-top: 7vh;
+      margin-right: 5vw;
+      margin-bottom: 5vh;
+      min-height: 70vh;
+     }
     .motiv {
       display: block;
       margin-left: auto;
@@ -385,6 +462,21 @@ body {
     .uwu-main {
       font-size: 25px;
   }
+  .extra1z {
+    text-align: center;
+    display: block;
+    font-size: large;
+    padding-top: 12px;
+  }
+  .extra1x {
+    text-align: center;
+    display: block;
+    font-size: medium;
+    padding-top: 12px;
+  }
+  .table1 {
+    margin-top: 1.5vh;
+   }
 }
 
   @media screen and (min-width: 721px) {
@@ -395,7 +487,9 @@ body {
       margin-top: 5vh;
       float: left;
     }
-
+    .dropdown {
+      margin-right: 2vh;
+    }
     .block2 {
       font-size: 2.5vh;
       float: left;
@@ -410,6 +504,13 @@ body {
       padding-right: 7px;
       padding-bottom: 5px;
     }
+    .extra1 {
+     margin-left: 4vw;
+     margin-top: 7vh;
+     margin-right: 5vw;
+     margin-bottom: 5vh;
+     min-height: 70vh;
+    }
     .footer {
       margin-top: 60vh;
       min-height:8vh;
@@ -422,6 +523,18 @@ body {
       font-size: 56px;
       margin-bottom: 3vh;
     }
-    
-    
+    .voina-im {
+      text-align: center;
+      display: block;
+      margin: 0 auto;
+      line-height: 10vh;
+      width: 55vw;
+      min-width: 25vw;
+      max-width: 60vw;
+      height: 45vw;
+    }
+    .extra1x {
+      margin-left: 10px;
+      margin-right: 10px;
+    }
 }
