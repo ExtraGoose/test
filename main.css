@@ -62,9 +62,13 @@
  /* границы ячеек тела таблицы */
  td {
     border: 1px solid rgb(46, 46, 46);
+    width: 100vh;
  }
  .table1 {
   margin-top: 2vw;
+  margin-bottom: 5vw;
+  margin-left: 4vw;
+  margin-right: 4vw;
  }
 
   /*Общее*/
@@ -324,7 +328,7 @@ body {
   padding-bottom: 100px;
   margin-top: 100vw;
   text-align: center;
-  font-size: 2.5vh;
+  font-size:0.5cm;
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   word-spacing: 1vh;
 }
@@ -332,23 +336,14 @@ body {
   width: 20ch;
   margin-top: 3vh;
 }
-.ya-kringe {
-  font-size: 0.5cm;
-  margin-top: 3vw;
-}
-
-.ya-kringe2 {
-  font-size:0.45cm; 
-  margin-top: 2vw;
-}
 
 .ya-kringemr {
-  font-size:1cm;
+  font-size:0.8cm;
 }
 
 .voina {
   margin-top: 30vh;
-  padding-top: 7vh;
+  padding-top: 30vh;
   background-color: #141313;
   color: white;
   padding-bottom: 20px;
@@ -374,7 +369,7 @@ body {
   font-size: 5vw;
 }
 .war-exit {
-  font-size: 4vw;
+  font-size: 5vw;
   text-align: center;
   margin-top: 3vh;
 }
@@ -404,13 +399,35 @@ body {
 .extra1x {
   text-align: center;
   display: block;
-  font-size: x-large;
+  font-size: 30px;
   padding-top: 12px;
 }
+.exit-button {
+  text-align: right;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 5px;
+  padding-left: 5px;
+  text-decoration:none;
+}
+.exit-button:visited {
+  color: #152c2c;
+}
+.exit-button-c {
+  border-radius: 1.3vh;
+  border: 2px solid #37423d;
+  border-right: 3px solid #37423d;
+  border-bottom: 3px solid #37423d;
+  border-top: 3px solid #536b60;
+  border-left: 3px solid #536b60;
+  background-color: #708577;
+  max-width: 9.5vh;
+  position: absolute; right:10vh
+}
 .obnova-txt {
-  margin-top: 5vh;
-  margin-left: 5vh;
-  margin-right: 5vh;
+  margin-top: 3vh;
+  margin-left: 5vw;
+  margin-right: 5vw;
 }
 
   @media screen and (max-width: 720px) {
@@ -471,12 +488,45 @@ body {
   .extra1x {
     text-align: center;
     display: block;
-    font-size: medium;
-    padding-top: 12px;
+    font-size: large;
+    padding-top: 15px;
+    margin-left: 3vw;
+    margin-right: 3vw;
   }
   .table1 {
     margin-top: 1.5vh;
    }
+   .voina {
+    margin-top: 30vh;
+    padding-top: 15vh;
+    background-color: #141313;
+    color: white;
+    padding-bottom: 20px;
+  }
+  .voina-im {
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    line-height: 10vh;
+    width: 7cm;
+    min-width: 25vw;
+    max-width: 60vw;
+    height: 45vw;
+  }
+  .vint {
+    text-align: right;
+    margin-top: 20px;
+    font-size: 8vw;
+    padding-right: 25px;
+  }
+  .ochn {
+    text-align: left;
+    font-size: 8vw;
+    margin-top: 25px;
+  }
+  .obnova-txt {
+    font-size: 20px;
+  }
 }
 
   @media screen and (min-width: 721px) {
@@ -523,18 +573,38 @@ body {
       font-size: 56px;
       margin-bottom: 3vh;
     }
+    .extra1x {
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+    .uwu-past {
+      font-size:0.8cm;
+    }
+    
+    .ya-kringemr {
+      font-size:1cm;
+    }
     .voina-im {
       text-align: center;
       display: block;
       margin: 0 auto;
       line-height: 10vh;
-      width: 55vw;
-      min-width: 25vw;
-      max-width: 60vw;
-      height: 45vw;
+      width: 10cm;
+      height: 10cm;
     }
-    .extra1x {
-      margin-left: 10px;
-      margin-right: 10px;
+    .vint {
+      text-align: right;
+      margin-top: 4vw;
+      font-size: 4vw;
+      padding-right: 25px;
+    }
+    .ochn {
+      text-align: left;
+      font-size: 4vw;
+      margin-top: 10vh;
+    }
+    .war-exit {
+      font-size: 3vw;
+      margin-top: 3vw;
     }
 }
