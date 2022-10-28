@@ -14,4 +14,10 @@ function menu() {
         }
       }
     }
-  } 
+  }
+
+function changeText(id) {
+
+  id.innerHTML = "Extra_Goose#1734";
+
+}
