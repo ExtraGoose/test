@@ -94,6 +94,7 @@ details{
   margin-bottom: 5vw;
   margin-left: 4vw;
   margin-right: 4vw;
+  text-align: center;
  }
 
   /*Общее*/
@@ -106,6 +107,12 @@ details{
 body {
   background-color: #84978e;
   color: #222;
+}
+
+@font-face {
+	font-family: 'Horror'; 
+	src: local('Horror'),
+		url(hor.ttf); 
 }
 
 #Главная {
@@ -324,8 +331,11 @@ body {
   text-align: center;
   display: block;
   margin: 0 auto;
-  line-height: 10vh;
+  line-height: 15vh;
   margin-top: 6vh;
+}
+.ti-chego-mg {
+  height: 30vh;
 }
 .uwu2 {
   width: 40vw;
@@ -378,14 +388,23 @@ body {
 .neko-im {
   width: 20ch;
   margin-top: 3vh;
+  border-radius: 1vh;
+  border: 3vh solid #a82ca2;
 }
 
 .ya-kringemr {
   font-size:0.8cm;
 }
-
-.voina {
+.predvoina {
   margin-top: 30vh;
+  background-color: #303030;
+  color: white;
+  padding-bottom: 20px;
+  height: 7vh;
+  padding-bottom: 1vw;
+  letter-spacing: 1vh;
+}
+.voina {
   padding-top: 30vh;
   background-color: #141313;
   color: white;
@@ -472,6 +491,13 @@ body {
   margin-top: 3vh;
   margin-left: 5vw;
   margin-right: 5vw;
+}
+.grohot {
+  text-align: center;
+  font-size: 10vh;
+  font-family: 'Horror'; 
+  max-height: 15vh;
+  height: auto;
 }
 .block3 {
   border-radius: 3vh;
@@ -583,15 +609,23 @@ body {
     margin-left: 3vw;
     margin-right: 3vw;
   }
+  .grohot {
+    text-align: center;
+    font-size: 10vw;
+    margin-top: 10vh;
+  }
   .table1 {
     margin-top: 1.5vh;
    }
    .voina {
-    margin-top: 30vh;
     padding-top: 15vh;
     background-color: #141313;
     color: white;
     padding-bottom: 20px;
+  }
+  .predvoina {
+    max-height: 10vh;
+    height: auto;
   }
   .voina-im {
     text-align: center;
@@ -608,6 +642,11 @@ body {
     margin-top: 20px;
     font-size: 8vw;
     padding-right: 25px;
+  }
+  .neko-im {
+    width: 20ch;
+    margin-top: 3vh;
+    
   }
   .ochn {
     text-align: left;
@@ -703,6 +742,10 @@ body {
      margin-bottom: 5vh;
      min-height: 70vh;
     }
+    .predvoina {
+      max-height: 13vh;
+      height: auto;
+    }
     .footer {
       margin-top: 60vh;
       min-height:8vh;
@@ -733,6 +776,9 @@ body {
       line-height: 10vh;
       width: 10cm;
       height: 10cm;
+    }
+    .grohot {
+      margin-top: 20vh;
     }
     .vint {
       text-align: right;
@@ -778,5 +824,8 @@ body {
     }
     .small-discord {
       font-size: 2vh;
+    }
+    .ti-chego-mg {
+      height: 45vh;
     }
 }
